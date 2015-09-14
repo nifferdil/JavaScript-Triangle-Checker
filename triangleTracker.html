@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+
+      <form id="triangle-tracker">
+        <div class="form-group">
+          <label for="sideInput1">Enter three lengths and find out if this creates a triangle!</label><br>
+          <input id="sideInput1" type="text"><br>
+          <input id="sideInput2" type="text"><br>
+          <input id="sideInput3" type="text"><br>
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p><span class="triangle"></span> <span class="not"></span> a triangle.</p>
+      </div>
+    </div>
+  </body>
+</html>
