@@ -1,6 +1,6 @@
 # JavaScript-Triangle-Checker
 
-##### _JavaScript Project - Epicodus Week 6, 15 September 2015_
+##### _JavaScript Project - Epicodus Week 6, 14 September 2015_
 
 #### By **Perry Eising & Jennifer Morkunas**
 
